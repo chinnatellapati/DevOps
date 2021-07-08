@@ -7,3 +7,10 @@ for price in prices:
 print(f"Total: {total_cost}")
 
 
+# Nested loops 
+
+
+for x in range(4):
+    for y in range(3):
+        print(f'({x},{y})')
+
