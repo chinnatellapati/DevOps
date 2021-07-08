@@ -22,4 +22,12 @@ if is_credit_good:
     down_payment = house_price * 0.1
 else:
     down_payment = house_price * 0.2
-print(f'Down payment ${down_payment}')
+print(f'Down payment ${down_payment}'
+
+
+weight_lbs = input('Enter person weight(lbs) ')
+weight_kgs = int(weight_lbs) * 0.45
+print('Person weight in (kgs) = ', weight_kgs)
+
+
+)
