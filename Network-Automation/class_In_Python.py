@@ -22,4 +22,18 @@ point2.x = 10
 print(point2.x)
 
 
+# Example programs 
+
+class Employee:
+    def addition(self):
+        print("Addition of numbers")
+    def subtration(self):
+        print("substration of numbers")
+        
+arthemeric = Employee()
+p1 = arthemeric.addition()
+p2 = arthemeric.subtration()
+
+
+
 
