@@ -34,4 +34,10 @@ def greet_user(first_name, last_name):
 
 print("Start")
 greet_user(first_name='John', last_name='smith')
-print("Finish")
+print("Finish"
+
+
+# Importance of Keyword arguments are to make code more resable .
+
+greet_user(50, 10,0.1) # not clear for someone new 
+greet_user(total=50, shipping=10,discount=0.1) # more redable
