@@ -1,54 +1,34 @@
-# Design a python program for car engine start / stop /quit
-command = ""
-while command != "quit":
-    command = input("> ").lower()
-    if command == "start":
-        print("Car engine started ....")
-    elif command == "stop":
-        print("Car engine stopped ....")
-    elif command == "help":
-         print(""" 
-start - To start the car engine started
-stop - To stop the car engine stopped
-quit - To quit
-         """)
-    elif command == "quit":
-        break
-    else:
-        print("sorry - i don't understand that")
 
+#Design car game using python
 
-# If alredy stoped don't stop again
-
-# Design a python program for car engine start / stop /quit
-command = ""
 started = False
+command = ""
 while True:
     command = input("> ").lower()
     if command == "start":
         if started:
-            print("Car is alredy started ")
+            print("Car already started!")
         else:
-            started=True
-            print("Car engine started ....")
-    elif command == "start":
-        print("Car engine alredy started ....")
+            started = True
+            print("Start - Start the car engine .....")
     elif command == "stop":
         if not started:
-            print("Car is already stopped .....!")
+            print("car already stopped .....")
         else:
-            started=False
-            print("Car engine stopped ....")
+            started = False
+            print("Stop - Stopping the car engine  ......")
     elif command == "help":
-         print("""
-start - To start the car engine started
-stop - To stop the car engine stopped
-quit - To quit
-         """)
+        print("""
+    start - For starting the car engine
+    stop  - For stopping the car engine 
+    quit  - quit the program 
+        """)
     elif command == "quit":
         break
     else:
-        print("sorry - i don't understand that")
+        print("Sorry - I don't understand the command")
+
+
 
 
 
