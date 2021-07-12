@@ -1,4 +1,4 @@
-# 2 Dimentinal lists in Python .
+# # lists in Python .
 
 matrix =[
 
