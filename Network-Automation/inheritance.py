@@ -1,4 +1,4 @@
-# Program for Inheritance
+# Program to demonistrate usage of  Inheritance
 
 class Parent:
     def common(self):
