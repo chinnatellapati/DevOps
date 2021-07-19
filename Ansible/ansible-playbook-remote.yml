@@ -3,9 +3,6 @@
 - hosts: all
 
   tasks:
-
-
-
   - name: copy Dockerfile into Remote machine
 
     copy:
@@ -27,7 +24,6 @@
     command: docker stop customcontainer
 
     ignore_errors: True
-
 
 
   - name: remove the running container
